@@ -55,3 +55,21 @@ p:active {
     border: 2px solid blue;
     transition: border, 5s;
 }
+
+button {
+    color: inherit;
+    background-color: lightcoral;
+    font-family: inherit;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding: 10px;
+    margin: 15px;
+    border: 0;
+    border-radius: 15px;
+    width: 100px;
+    min-width: fit-content;
+}
+
+button:hover {
+    cursor: pointer;
+}
